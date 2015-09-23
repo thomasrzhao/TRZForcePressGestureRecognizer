@@ -5,7 +5,7 @@ A UIGestureRecognizer subclass that recognizes 3D/Force Touches on iPhone 6s (Pl
 Since the iPhone 6s hasn't been released yet and the simulator doesn't support Force Touch, I have no idea if this actually works or not. Use at your own risk.
 
 ## Usage
-Copy ForcePressGestureRecognizer to your project and use like any other UIGestureRecognizer subclass:
+Copy ForcePressGestureRecognizer.swift to your project and use like any other UIGestureRecognizer subclass:
 
 ```swift
 let forcePressRecognizer = ForcePressGestureRecognizer(target: self, action: "didRecognizeForcePress:")

@@ -66,9 +66,12 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
         relativeForces = nil
 
         currentTouches.unionInPlace(touches)
-
+        
         //We only start recognizing if *exactly* numberOfTouchesRequired of touches begin simultaneously
-        if !inProgress && currentTouches.count == touches.count && currentTouches.count == numberOfTouchesRequired {
+        if !inProgress &&
+            currentTouches.count == touches.count &&
+            currentTouches.count == numberOfTouchesRequired &&
+            view?.traitCollection.forceTouchCapability == .Available {
             state = .Began
         } else if inProgress {
             currentTouches.removeAll()

@@ -1,4 +1,4 @@
-# ANEWrappers
+# TRZForcePressGestureRecognizer
 A UIGestureRecognizer subclass that recognizes 3D/Force Touches on iPhone 6s (Plus). For some reason Apple doesn't provide one in UIKit.
 
 ## Warning!

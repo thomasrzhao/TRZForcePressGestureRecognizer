@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA93D841BB24040004E1AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA93D831BB24040004E1AE1 /* AppDelegate.swift */; };
+		CAA93D861BB24040004E1AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA93D851BB24040004E1AE1 /* ViewController.swift */; };
+		CAA93D891BB24040004E1AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA93D871BB24040004E1AE1 /* Main.storyboard */; };
+		CAA93D8B1BB24040004E1AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA93D8A1BB24040004E1AE1 /* Assets.xcassets */; };
+		CAA93D8E1BB24040004E1AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA93D8C1BB24040004E1AE1 /* LaunchScreen.storyboard */; };
+		CAA93D981BB260F2004E1AE1 /* ForcePressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA93D971BB260F2004E1AE1 /* ForcePressGestureRecognizer.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAA93D801BB24040004E1AE1 /* TRZForcePressGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZForcePressGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA93D831BB24040004E1AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA93D851BB24040004E1AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAA93D881BB24040004E1AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAA93D8A1BB24040004E1AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAA93D8D1BB24040004E1AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAA93D8F1BB24040004E1AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA93D971BB260F2004E1AE1 /* ForcePressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForcePressGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA93D7D1BB24040004E1AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA93D771BB24040004E1AE1 = {
+			isa = PBXGroup;
+			children = (
+				CAA93D971BB260F2004E1AE1 /* ForcePressGestureRecognizer.swift */,
+				CAA93D821BB24040004E1AE1 /* TRZForcePressGestureRecognizer */,
+				CAA93D811BB24040004E1AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA93D811BB24040004E1AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA93D801BB24040004E1AE1 /* TRZForcePressGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA93D821BB24040004E1AE1 /* TRZForcePressGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				CAA93D831BB24040004E1AE1 /* AppDelegate.swift */,
+				CAA93D851BB24040004E1AE1 /* ViewController.swift */,
+				CAA93D871BB24040004E1AE1 /* Main.storyboard */,
+				CAA93D8A1BB24040004E1AE1 /* Assets.xcassets */,
+				CAA93D8C1BB24040004E1AE1 /* LaunchScreen.storyboard */,
+				CAA93D8F1BB24040004E1AE1 /* Info.plist */,
+			);
+			path = TRZForcePressGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA93D7F1BB24040004E1AE1 /* TRZForcePressGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA93D921BB24040004E1AE1 /* Build configuration list for PBXNativeTarget "TRZForcePressGestureRecognizer" */;
+			buildPhases = (
+				CAA93D7C1BB24040004E1AE1 /* Sources */,
+				CAA93D7D1BB24040004E1AE1 /* Frameworks */,
+				CAA93D7E1BB24040004E1AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZForcePressGestureRecognizer;
+			productName = TRZForcePressGestureRecognizer;
+			productReference = CAA93D801BB24040004E1AE1 /* TRZForcePressGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA93D781BB24040004E1AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thomas Zhao";
+				TargetAttributes = {
+					CAA93D7F1BB24040004E1AE1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CAA93D7B1BB24040004E1AE1 /* Build configuration list for PBXProject "TRZForcePressGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA93D771BB24040004E1AE1;
+			productRefGroup = CAA93D811BB24040004E1AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA93D7F1BB24040004E1AE1 /* TRZForcePressGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA93D7E1BB24040004E1AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA93D8E1BB24040004E1AE1 /* LaunchScreen.storyboard in Resources */,
+				CAA93D8B1BB24040004E1AE1 /* Assets.xcassets in Resources */,
+				CAA93D891BB24040004E1AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA93D7C1BB24040004E1AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA93D861BB24040004E1AE1 /* ViewController.swift in Sources */,
+				CAA93D981BB260F2004E1AE1 /* ForcePressGestureRecognizer.swift in Sources */,
+				CAA93D841BB24040004E1AE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAA93D871BB24040004E1AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA93D881BB24040004E1AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA93D8C1BB24040004E1AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA93D8D1BB24040004E1AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA93D901BB24040004E1AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAA93D911BB24040004E1AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA93D931BB24040004E1AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZForcePressGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasrzhao.TRZForcePressGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAA93D941BB24040004E1AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZForcePressGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasrzhao.TRZForcePressGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA93D7B1BB24040004E1AE1 /* Build configuration list for PBXProject "TRZForcePressGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA93D901BB24040004E1AE1 /* Debug */,
+				CAA93D911BB24040004E1AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA93D921BB24040004E1AE1 /* Build configuration list for PBXNativeTarget "TRZForcePressGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA93D931BB24040004E1AE1 /* Debug */,
+				CAA93D941BB24040004E1AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA93D781BB24040004E1AE1 /* Project object */;
+}

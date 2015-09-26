@@ -63,8 +63,6 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
     public override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent) {
         super.touchesBegan(touches, withEvent: event)
 
-        relativeForces = nil
-
         currentTouches.unionInPlace(touches)
         
         //We only start recognizing if *exactly* numberOfTouchesRequired of touches begin simultaneously
@@ -74,7 +72,6 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
             view?.traitCollection.forceTouchCapability == .Available {
             state = .Began
         } else if inProgress {
-            currentTouches.removeAll()
             state = .Cancelled
         }
 
@@ -89,7 +86,6 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
             let numberOfTouchesSuccessful = relativeForces!.filter({ $0 > minimumRelativeForceRequired }).count
 
             if numberOfTouchesSuccessful == numberOfTouchesRequired {
-                currentTouches.removeAll()
                 state = .Ended
             } else {
                 state = .Changed
@@ -101,8 +97,6 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
         super.touchesCancelled(touches, withEvent: event)
 
         if inProgress {
-            currentTouches.removeAll()
-            relativeForces = nil
             state = .Cancelled
         } else {
             currentTouches.subtractInPlace(touches)
@@ -113,11 +107,14 @@ public class ForcePressGestureRecognizer: UIGestureRecognizer {
         super.touchesEnded(touches, withEvent: event)
 
         if inProgress {
-            currentTouches.removeAll()
-            relativeForces = nil
             state = .Cancelled
         } else {
             currentTouches.subtractInPlace(touches)
         }
+    }
+    
+    public override func reset() {
+        currentTouches.removeAll()
+        relativeForces = nil
     }
 }

@@ -1,9 +1,6 @@
 # TRZForcePressGestureRecognizer
 A UIGestureRecognizer subclass that recognizes 3D/Force Touches on iPhone 6s (Plus). For some reason Apple doesn't provide one in UIKit.
 
-## Warning!
-Since the iPhone 6s hasn't been released yet and the simulator doesn't support Force Touch, I have no idea if this actually works or not. Use at your own risk.
-
 ## Usage
 Copy ForcePressGestureRecognizer.swift to your project and use like any other UIGestureRecognizer subclass:
 
@@ -24,7 +21,7 @@ To specify how hard the user has to press before the gesture is considered compl
 forcePressRecognizer.minimumRelativeForce = 0.25
 ```
 
-Relative force is defined as UITouch.force / UITouch.maximumPossibleForce, so it has a valid range of 0.0 to 1.0. The default value of minimumRelativeForce is 0.5 (though I'm not sure if that is reasonable or not).
+Relative force is defined as UITouch.force / UITouch.maximumPossibleForce, so it has a valid range of 0.0 to 1.0. The default value of minimumRelativeForce is 0.5.
 
 ## Advanced
 
